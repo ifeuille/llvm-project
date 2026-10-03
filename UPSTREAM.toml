@@ -1,0 +1,5 @@
+canonical_url = "https://github.com/llvm/llvm-project.git"
+base_oid = "fc4aad7b5db3fff421df9a9637605b9ca5667881"
+license = "Apache-2.0 WITH LLVM-exception"
+sync_branch = "refs/heads/r03-m01-source"
+local_changes = "Add UPSTREAM.toml provenance metadata only; LLVM and MLIR source, build, and legal files are unchanged."

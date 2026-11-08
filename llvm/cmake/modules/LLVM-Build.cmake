@@ -81,7 +81,7 @@ function(LLVMBuildResolveComponentsLink)
 
   # the native target may not be enabled when cross compiling
   if(TARGET ${LLVM_NATIVE_ARCH})
-    get_property(llvm_has_jit_native TARGET ${LLVM_NATIVE_ARCH} PROPERTY LLVM_HAS_JIT)
+    get_property(llvm_has_jit_native TARGET ${LLVM_NATIVE_ARCH} PROPERTY COMPONENT_HAS_JIT)
   else()
     set(llvm_has_jit_native OFF)
   endif()
